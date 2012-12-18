@@ -11,10 +11,15 @@
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../assets/css/docs.css" rel="stylesheet">
+    <link href="../assets/Font-Awesome/css/font-awesome.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!--[if lt IE 7]>
+      <link href="../assets/Font-Awesome/css/font-awesome-ie7.css" rel="stylesheet">
     <![endif]-->
 
   </head>
@@ -37,7 +42,7 @@
               <li class="">
                 <a href="./index.html">Home</a>
               </li>
-              <li class="active">
+              <li class="">
                 <a href="./company.html">The Company</a>
               </li>
               <li class="">
@@ -52,8 +57,8 @@
               <li class="">
                 <a href="./statistics.html">Statistics</a>
               </li>
-              <li class="">
-                <a href="./contact.html">Contact</a>
+              <li class="active">
+                <a href="./contact.php">Contact</a>
               </li>
             </ul>
           </div>
@@ -86,7 +91,7 @@
           <li><a href="./production.html"><i class="icon-chevron-right"></i>Production</a></li>
           <li><a href="./products.html"><i class="icon-chevron-right"></i>Products</a></li>
           <li><a href="./statistics.html"><i class="icon-chevron-right"></i>Statistics</a></li>
-          <li><a href="./contact.html"><i class="icon-chevron-right"></i>Contact</a></li>
+          <li><a href="./contact.php"><i class="icon-chevron-right"></i>Contact</a></li>
         </ul>
       </div>
       <div class="span9">
