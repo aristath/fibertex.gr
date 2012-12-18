@@ -86,7 +86,7 @@
           <li><a href="./production.html"><i class="icon-chevron-right"></i>Παραγωγή</a></li>
           <li><a href="./products.html"><i class="icon-chevron-right"></i>Προϊόντα</a></li>
           <li><a href="./statistics.html"><i class="icon-chevron-right"></i>Στατιστικά</a></li>
-          <li><a href="./contact.html"><i class="icon-chevron-right"></i>Επικοινωνία</a></li>
+          <li><a href="./contact.php"><i class="icon-chevron-right"></i>Επικοινωνία</a></li>
         </ul>
       </div>
       <div class="span9">

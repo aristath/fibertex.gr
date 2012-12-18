@@ -12,19 +12,19 @@ $message 				= $_POST['contact_message'];
 	
 // check that a name was entered
 if (empty($name))
-    $error = 'Παρακαλώ πληκρολογήστε το όνομά σας.';
+    $error = 'Please enter your full name.';
 // check that an email address was entered
 elseif (empty($email_address)) 
-    $error = 'Παρακαλώ πληκρολογήστε τη διεύθυνση του ηλεκτρονικού ταχυδρομείου σας.';
+    $error = 'Please enter your email.';
 // check for a valid email address
 elseif (!preg_match('/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/', $email_address))
-    $error = 'Παρακαλώ πληκρολογήστε μία έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου.';
+    $error = 'Please enter a valid e-mail address.';
 // check that a subject was entered
 elseif (empty($email_subject))
-    $error = 'Παρακαλώ πληκρολογήστε το θέμα σας.';
+    $error = 'Please enter the subject of your message.';
 // check that a message was entered
 elseif (empty($message))
-    $error = 'Παρακαλώ πληκρολογήστε το μήνυμά σας.';
+    $error = 'Please enter your message.';
 		
 // check if an error was found - if there was, send the user back to the form
 if (isset($error)) {
@@ -41,6 +41,6 @@ $email_content .= "Message:\n\n$message";
 mail ("info@fibertex.gr", "New Contact Message", $email_content);
 	
 // send the user back to the form
-header('Location: contact.php?s='.urlencode('Ευχαριστούμε για το μήνυμά σας.')); exit;
+header('Location: contact.php?s='.urlencode('Thank you for your message.')); exit;
 
 ?>

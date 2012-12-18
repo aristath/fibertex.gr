@@ -96,44 +96,12 @@
             <p class="tagline">Thank you for visiting our page. If you would like to get into contact with our team simply fill out the form below.</p>
           </div><!--end hero unit -->
           
-          <section class="span6" style="margin-left: 0px;">
-            <form>
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-user"></i> Full Name</label>
-                <div class="controls controls-row">
-                  <input type="text" class="input-xxlarge" style="width: 100% !important;" id="inputEmail" placeholder="Your Full Name">
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-envelope"></i> Email</label>
-                <div class="controls">
-                  <input type="text" class="input-xxlarge" style="width: 100% !important;" id="inputEmail" placeholder="you@yourdomain.com">
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-question-sign"></i> Subject</label>
-                <div class="controls">
-                  <input type="text" class="input-xxlarge" style="width: 100% !important;" id="inputSubject" placeholder="what's up?">
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-pencil"></i> Message</label>
-                <div class="controls">
-                  <textarea rows="6" class="input-xxlarge" style="width: 100% !important;" placeholder="What's on your mind?"></textarea>
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <div class="controls">
-                  <button type="submit" class="btn btn-success">Send Message</button>
-                </div>
-              </div>
-            </form>
-            <br class="clear">
-          </section><!-- end left -->
+<?php 
+
+include('./contact-form.php');
+contact_form(); 
+
+?>
           
           <section class="span6">
             <div class="well">
@@ -154,14 +122,14 @@
           <div class="span6">
             <table class="table">
               <tr>
-                <td>Address:</td>
-                <td>Artemidos 17,<br />
-                  14452, Metamorfosi<br />
-                  Athens, Greece
+                <td>Διεύθυνση:</td>
+                <td>Αρτέμιδος 17,<br />
+                  14452, Μεταμόρφωση<br />
+                  Αθήνα, Ελλάδα
                 </td>
               </tr>
               <tr>
-                <td>Phone</td>
+                <td>Τηλέφωνο</td>
                 <td>+30 210 2838001</td>
               </tr>
               <tr>
@@ -185,25 +153,25 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script src="../assets/js/bootstrap-affix.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
 
-    <script src="../assets/js/holder/holder.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/holder/holder.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
 
-    <script src="../assets/js/application.js"></script>
+    <script src="assets/js/application.js"></script>
 
   </body>
 </html>
