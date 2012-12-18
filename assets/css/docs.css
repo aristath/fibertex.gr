@@ -37,8 +37,8 @@ body > .navbar .brand {
   margin-left: 20px;
   float: right;
   font-weight: bold;
-  color: #000;
-  text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
+/*  color: #000;*/
+  text-shadow: 0 1px 0 rgba(0,0,0,.1), 0 0 30px rgba(0,0,0,.125);
   -webkit-transition: all .2s linear;
      -moz-transition: all .2s linear;
           transition: all .2s linear;
@@ -1103,13 +1103,13 @@ a.lang.gr{
   background: url("../img/gr.png");
 }
 
-.icon-large{
+.icon-large-home{
   font-size: 80px;
   display: block;
   width: 80px;
   height: 100px;
   position: relative;
-  top: 50px;
+  top: 30px;
 }
 
 a.thumbnail{
