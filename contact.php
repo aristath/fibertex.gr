@@ -53,7 +53,7 @@
                 <a href="./statistics.html">Στατιστικά</a>
               </li>
               <li class="active">
-                <a href="./contact.html">Επικοινωνία</a>
+                <a href="./contact.php">Επικοινωνία</a>
               </li>
             </ul>
           </div>
@@ -96,44 +96,12 @@
             <p class="tagline">Ευχαριστούμε που επισκευτήκατε την ιστοσελίδα μας. Για να επικοινωνήσετε μαζί μας μπορείτε απλά να συμπληρώσετε την παρακάτω φόρμα.</p>
           </div><!--end hero unit -->
           
-          <section class="span6" style="margin-left: 0px;">
-            <form>
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-user"></i> Ονοματεπώνυμο</label>
-                <div class="controls controls-row">
-                  <input type="text" class="input-xxlarge" style="width: 100% !important;" id="inputEmail" placeholder="Το πλήρες ονοματεπώνυμό σας">
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-envelope"></i> Email</label>
-                <div class="controls">
-                  <input type="text" class="input-xxlarge" style="width: 100% !important;" id="inputEmail" placeholder="you@yourdomain.com">
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-question-sign"></i> Θέμα</label>
-                <div class="controls">
-                  <input type="text" class="input-xxlarge" style="width: 100% !important;" id="inputSubject" placeholder="Θέμα">
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <label class="control-label" for="inputEmail"><i class="icon-pencil"></i> Μήνυμα</label>
-                <div class="controls">
-                  <textarea rows="6" class="input-xxlarge" style="width: 100% !important;" placeholder="Το κείμενό σας"></textarea>
-                </div>
-              </div>
-              
-              <div class="control-group">
-                <div class="controls">
-                  <button type="submit" class="btn btn-success">Αποστολή</button>
-                </div>
-              </div>
-            </form>
-            <br class="clear">
-          </section><!-- end left -->
+<?php 
+
+include('./contact-form.php');
+contact_form(); 
+
+?>
           
           <section class="span6">
             <div class="well">
